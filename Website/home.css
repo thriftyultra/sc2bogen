@@ -1,0 +1,42 @@
+body {
+
+	background-image: url('test.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	
+	background-attachment: fixed;
+
+
+}
+
+
+h1 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26;
+	color: #FEFCFF;
+	margin-top: 50px;
+
+
+}
+img {
+	opacity: 0.5;
+	display: inline-block;
+	margin-right: 30px;
+
+
+	
+
+
+}
+p {
+
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #FEFCFF;
+	
+}

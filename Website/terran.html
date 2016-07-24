@@ -1,0 +1,3809 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="terran.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="animate.css">
+ <script src="wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+
+<script>
+	
+	window.onload=function() {
+  var E = document.getElementsByClassName("item");
+  var m = E.length;
+  var n = parseInt(Math.random()*m);
+  for (var i=m-1;i>=0;i--) {
+      var e = E[i];
+      e.style.display='none';
+  }
+  E[n].style.display='';
+}
+
+</script>
+
+
+	<title>Terran Build Order Generator</title>
+</head>
+<body>
+<div class="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
+<div class="item">
+<br><br><br><br>
+<h1> Dream's 1/1/1 Window Mine Drop into timing attack <br> (TvP Timing Attack) </h1>
+<table>
+<tbody>
+    <tr>
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Reaper</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Reaper</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ 100 Gas</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Marine</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;2:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Refinery 2</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Command Center 2</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Starport</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Factory</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Barracks 1 Reactor</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Barracks 2, Same SCV</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Starport</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;4:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Stimpack</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Tech 2</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Medivac 1, Drop WM</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Barracks 3</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;4:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Concussive Shells</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Tech 3, 2x Marine Maruader</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Refinery 3</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Weapons Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Engineering Bay</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Factory Reactor, Switch to starport</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;5:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Combat Shields</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Concussive Shells</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;6:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Stim</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;6:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ Barracks 4 + 5</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Armor Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@ +1 Attack</td>
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="item">
+<br><br><br><br>
+<h1> TvZ: 2 base double Medivac Stim 
+<br> (TvZ Economic) </h1>
+
+	<table>
+	<tbody>
+    <tr>
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Reaper</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@100% Barracks - Reaper and Orbital Command</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@400 mineral - Command Centre (@100% - Orbital Command)</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;21</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@100 mineral - Supply Depot</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@150 mineral - Barracks</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;23</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@100% Reaper - Marine (prioritize the above buildings)</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;23</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@75 mineral - Refinery</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@150 gas - Factory and Reactor on Barracks</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;26</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@100% Barracks - Tech Lab (@100% Stim)</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Stimpack</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;34</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@100% Factory - Reactor and Starport</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;34</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Starport</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;52</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;@100% Starport - Swap it onto the Reactor of the Factory and produce 2x Medivac</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;52</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<div class="item">
+<br><br><br><br>
+<center>
+<h1> Bonjwa TvZ <br> 2Base MMM
+</h1>
+<table>
+	<tbody>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;13</td>
+        <td>&nbsp;&nbsp;0:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;0:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;0:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;0:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;0:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;0:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;0:50</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;17</td>
+        <td>&nbsp;&nbsp;1:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;18</td>
+        <td>&nbsp;&nbsp;1:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:27</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>, <span class="Unit">Reaper</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:50</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:52</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;21</td>
+        <td>&nbsp;&nbsp;1:59</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:04</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:07</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;23</td>
+        <td>&nbsp;&nbsp;2:16</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;23</td>
+        <td>&nbsp;&nbsp;2:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;23</td>
+        <td>&nbsp;&nbsp;2:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;25</td>
+        <td>&nbsp;&nbsp;2:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;26</td>
+        <td>&nbsp;&nbsp;2:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;27</td>
+        <td>&nbsp;&nbsp;2:41</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;25</td>
+        <td>&nbsp;&nbsp;2:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;28</td>
+        <td>&nbsp;&nbsp;2:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Starport</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;28</td>
+        <td>&nbsp;&nbsp;2:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;28</td>
+        <td>&nbsp;&nbsp;2:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Bunker</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;28</td>
+        <td>&nbsp;&nbsp;2:58</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;29</td>
+        <td>&nbsp;&nbsp;3:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;30</td>
+        <td>&nbsp;&nbsp;3:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;30</td>
+        <td>&nbsp;&nbsp;3:19</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;32</td>
+        <td>&nbsp;&nbsp;3:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Siege Tank</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;35</td>
+        <td>&nbsp;&nbsp;3:31</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>, <span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;35</td>
+        <td>&nbsp;&nbsp;3:32</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;35</td>
+        <td>&nbsp;&nbsp;3:33</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;38</td>
+        <td>&nbsp;&nbsp;3:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;40</td>
+        <td>&nbsp;&nbsp;3:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;40</td>
+        <td>&nbsp;&nbsp;3:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;42</td>
+        <td>&nbsp;&nbsp;3:58</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;42</td>
+        <td>&nbsp;&nbsp;4:02</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Stimpack</span>, <span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:11</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Viking</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:28</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;52</td>
+        <td>&nbsp;&nbsp;4:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;54</td>
+        <td>&nbsp;&nbsp;4:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;54</td>
+        <td>&nbsp;&nbsp;4:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;54</td>
+        <td>&nbsp;&nbsp;4:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;54</td>
+        <td>&nbsp;&nbsp;4:48</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;54</td>
+        <td>&nbsp;&nbsp;4:49</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Starport Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;54</td>
+        <td>&nbsp;&nbsp;4:50</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;4:59</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;5:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;5:02</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;59</td>
+        <td>&nbsp;&nbsp;5:08</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;59</td>
+        <td>&nbsp;&nbsp;5:14</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>, <span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;62</td>
+        <td>&nbsp;&nbsp;5:16</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;62</td>
+        <td>&nbsp;&nbsp;5:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;64</td>
+        <td>&nbsp;&nbsp;5:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;64</td>
+        <td>&nbsp;&nbsp;5:27</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;69</td>
+        <td>&nbsp;&nbsp;5:28</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;69</td>
+        <td>&nbsp;&nbsp;5:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Weapons Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;69</td>
+        <td>&nbsp;&nbsp;5:33</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Armor Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;73</td>
+        <td>&nbsp;&nbsp;5:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:49</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>, <span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:50</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:54</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;5:59</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;6:01</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;6:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;6:07</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Combat Shields</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;6:08</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;85</td>
+        <td>&nbsp;&nbsp;6:21</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x3</span>, <span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;85</td>
+        <td>&nbsp;&nbsp;6:23</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks x2</span>, <span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;95</td>
+        <td>&nbsp;&nbsp;6:33</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;95</td>
+        <td>&nbsp;&nbsp;6:35</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>, <span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;95</td>
+        <td>&nbsp;&nbsp;6:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;102</td>
+        <td>&nbsp;&nbsp;6:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Armory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;102</td>
+        <td>&nbsp;&nbsp;6:45</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;100</td>
+        <td>&nbsp;&nbsp;6:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;100</td>
+        <td>&nbsp;&nbsp;6:56</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>, <span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:02</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Missile Turret</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Bunker</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:11</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:12</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;7:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x5</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;7:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;116</td>
+        <td>&nbsp;&nbsp;7:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>, <span class="Building">Factory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;116</td>
+        <td>&nbsp;&nbsp;7:35</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;116</td>
+        <td>&nbsp;&nbsp;7:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;120</td>
+        <td>&nbsp;&nbsp;7:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>, <span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;120</td>
+        <td>&nbsp;&nbsp;7:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Weapons Level 2</span>, <span class="Upgrade">Terran Infantry Armor Level 2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;126</td>
+        <td>&nbsp;&nbsp;7:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;126</td>
+        <td>&nbsp;&nbsp;7:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;126</td>
+        <td>&nbsp;&nbsp;7:56</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;134</td>
+        <td>&nbsp;&nbsp;7:59</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;136</td>
+        <td>&nbsp;&nbsp;8:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;136</td>
+        <td>&nbsp;&nbsp;8:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>, <span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;147</td>
+        <td>&nbsp;&nbsp;8:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;148</td>
+        <td>&nbsp;&nbsp;8:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;148</td>
+        <td>&nbsp;&nbsp;8:21</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>, <span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;148</td>
+        <td>&nbsp;&nbsp;8:23</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>, <span class="Building">Supply Depot x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;148</td>
+        <td>&nbsp;&nbsp;8:24</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;149</td>
+        <td>&nbsp;&nbsp;8:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;149</td>
+        <td>&nbsp;&nbsp;8:31</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;157</td>
+        <td>&nbsp;&nbsp;8:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;157</td>
+        <td>&nbsp;&nbsp;8:42</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;157</td>
+        <td>&nbsp;&nbsp;8:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;157</td>
+        <td>&nbsp;&nbsp;8:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;157</td>
+        <td>&nbsp;&nbsp;8:45</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;163</td>
+        <td>&nbsp;&nbsp;8:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x8</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;168</td>
+        <td>&nbsp;&nbsp;9:07</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;169</td>
+        <td>&nbsp;&nbsp;9:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Thor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;169</td>
+        <td>&nbsp;&nbsp;9:16</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x6</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;169</td>
+        <td>&nbsp;&nbsp;9:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;175</td>
+        <td>&nbsp;&nbsp;9:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;170</td>
+        <td>&nbsp;&nbsp;9:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;170</td>
+        <td>&nbsp;&nbsp;9:28</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;165</td>
+        <td>&nbsp;&nbsp;9:37</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x10</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;173</td>
+        <td>&nbsp;&nbsp;9:49</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marauder</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;173</td>
+        <td>&nbsp;&nbsp;9:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;173</td>
+        <td>&nbsp;&nbsp;9:52</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Widow Mine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;178</td>
+        <td>&nbsp;&nbsp;9:56</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+</tbody>
+</table>
+	</center>
+</div>
+
+<div class="item">
+
+	<center>
+	<h1> 3 Rax Reaper All-In (TvX Cheese) </h1>
+	<table>
+		
+		<tbody>
+    <tr>
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:35</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Proxied.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:56</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;1:02</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Only 2.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;1:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Reaper</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Continuous.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;1:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;With your first SCV that was sent out.</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;17</td>
+        <td>&nbsp;&nbsp;1:48</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Only 1.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;18</td>
+        <td>&nbsp;&nbsp;2:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;2 SCV's on this gas.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;2:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;28</td>
+        <td>&nbsp;&nbsp;3:35</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+</tbody>
+	</table>
+	</center>
+</div>
+
+
+
+<div class="item">
+<br><br><br><br>
+	<center>
+	<table>
+		<tbody>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:01</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;If you're going to wall off your ramp, rally this SCV to your ramp.</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;13</td>
+        <td>&nbsp;&nbsp;0:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;0:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;0:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;0:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;0:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;0:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;17</td>
+        <td>&nbsp;&nbsp;1:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;18</td>
+        <td>&nbsp;&nbsp;1:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:31</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:49</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;21</td>
+        <td>&nbsp;&nbsp;1:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;This can be placed earlier if the two Barracks' build times are staggered instead of placed at the same time.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:08</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;2:19</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;2:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;2:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;25</td>
+        <td>&nbsp;&nbsp;2:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;26</td>
+        <td>&nbsp;&nbsp;2:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;26</td>
+        <td>&nbsp;&nbsp;2:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;27</td>
+        <td>&nbsp;&nbsp;2:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;27</td>
+        <td>&nbsp;&nbsp;2:46</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;29</td>
+        <td>&nbsp;&nbsp;2:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;29</td>
+        <td>&nbsp;&nbsp;2:54</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;2:58</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;3:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;3:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;33</td>
+        <td>&nbsp;&nbsp;3:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;34</td>
+        <td>&nbsp;&nbsp;3:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Stimpack</span>, <span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;34</td>
+        <td>&nbsp;&nbsp;3:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;37</td>
+        <td>&nbsp;&nbsp;3:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;37</td>
+        <td>&nbsp;&nbsp;3:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;39</td>
+        <td>&nbsp;&nbsp;3:28</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;39</td>
+        <td>&nbsp;&nbsp;3:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;The Factory should go down as soon as you have 100 gas.</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;40</td>
+        <td>&nbsp;&nbsp;3:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;40</td>
+        <td>&nbsp;&nbsp;3:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;43</td>
+        <td>&nbsp;&nbsp;3:42</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;43</td>
+        <td>&nbsp;&nbsp;3:47</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:52</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;For a more Marauder-heavy composition, get one reactor and one tech lab instead of two reactors here.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:54</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Use the time not spent building units because you're building reactors to save up minerals and get a 3rd CC.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:58</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:02</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;47</td>
+        <td>&nbsp;&nbsp;4:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;47</td>
+        <td>&nbsp;&nbsp;4:08</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Once you have your 3rd CC down, you can grab your 3rd and 4th gases. Getting these before your 3rd CC will delay it unnecessarily.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;47</td>
+        <td>&nbsp;&nbsp;4:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;48</td>
+        <td>&nbsp;&nbsp;4:12</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Starport</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Swap the Starport onto the reactor built by the Factory.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:24</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:32</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:37</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;4:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;4:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;58</td>
+        <td>&nbsp;&nbsp;4:47</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;58</td>
+        <td>&nbsp;&nbsp;4:48</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;60</td>
+        <td>&nbsp;&nbsp;4:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;62</td>
+        <td>&nbsp;&nbsp;5:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;62</td>
+        <td>&nbsp;&nbsp;5:04</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:14</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Combat Shields</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:21</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:32</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:33</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>, <span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;77</td>
+        <td>&nbsp;&nbsp;5:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;77</td>
+        <td>&nbsp;&nbsp;5:37</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;5:45</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;5:46</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x5</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;87</td>
+        <td>&nbsp;&nbsp;5:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;87</td>
+        <td>&nbsp;&nbsp;5:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;88</td>
+        <td>&nbsp;&nbsp;5:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;88</td>
+        <td>&nbsp;&nbsp;6:01</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Armor Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;88</td>
+        <td>&nbsp;&nbsp;6:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Weapons Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;89</td>
+        <td>&nbsp;&nbsp;6:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;89</td>
+        <td>&nbsp;&nbsp;6:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;89</td>
+        <td>&nbsp;&nbsp;6:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;92</td>
+        <td>&nbsp;&nbsp;6:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;92</td>
+        <td>&nbsp;&nbsp;6:16</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;92</td>
+        <td>&nbsp;&nbsp;6:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;99</td>
+        <td>&nbsp;&nbsp;6:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;99</td>
+        <td>&nbsp;&nbsp;6:21</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;99</td>
+        <td>&nbsp;&nbsp;6:24</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:31</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;107</td>
+        <td>&nbsp;&nbsp;6:35</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;107</td>
+        <td>&nbsp;&nbsp;6:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;107</td>
+        <td>&nbsp;&nbsp;6:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;6:41</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;6:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;6:47</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;6:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;6:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;118</td>
+        <td>&nbsp;&nbsp;6:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;118</td>
+        <td>&nbsp;&nbsp;6:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+</tbody>
+	</table>
+	</center>
+</div>
+
+
+<div class="item">
+<br><br><br><br>
+	<center>
+	<h1> Basic TvX (TvX Economic) </h1>
+	<table>
+		<tbody>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;12</td>
+        <td>&nbsp;&nbsp;0:01</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;If you're going to wall off your ramp, rally this SCV to your ramp.</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;13</td>
+        <td>&nbsp;&nbsp;0:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;0:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;14</td>
+        <td>&nbsp;&nbsp;0:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;0:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;15</td>
+        <td>&nbsp;&nbsp;0:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;16</td>
+        <td>&nbsp;&nbsp;0:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;17</td>
+        <td>&nbsp;&nbsp;1:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;18</td>
+        <td>&nbsp;&nbsp;1:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;19</td>
+        <td>&nbsp;&nbsp;1:31</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;20</td>
+        <td>&nbsp;&nbsp;1:49</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;21</td>
+        <td>&nbsp;&nbsp;1:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;This can be placed earlier if the two Barracks' build times are staggered instead of placed at the same time.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:08</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;22</td>
+        <td>&nbsp;&nbsp;2:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;2:19</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;2:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;24</td>
+        <td>&nbsp;&nbsp;2:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;25</td>
+        <td>&nbsp;&nbsp;2:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;26</td>
+        <td>&nbsp;&nbsp;2:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;26</td>
+        <td>&nbsp;&nbsp;2:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;27</td>
+        <td>&nbsp;&nbsp;2:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;27</td>
+        <td>&nbsp;&nbsp;2:46</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;29</td>
+        <td>&nbsp;&nbsp;2:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;29</td>
+        <td>&nbsp;&nbsp;2:54</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Tech Lab</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;2:58</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;3:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;31</td>
+        <td>&nbsp;&nbsp;3:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;33</td>
+        <td>&nbsp;&nbsp;3:10</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;34</td>
+        <td>&nbsp;&nbsp;3:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Stimpack</span>, <span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;34</td>
+        <td>&nbsp;&nbsp;3:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;37</td>
+        <td>&nbsp;&nbsp;3:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;37</td>
+        <td>&nbsp;&nbsp;3:26</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;39</td>
+        <td>&nbsp;&nbsp;3:28</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;39</td>
+        <td>&nbsp;&nbsp;3:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;The Factory should go down as soon as you have 100 gas.</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;40</td>
+        <td>&nbsp;&nbsp;3:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;40</td>
+        <td>&nbsp;&nbsp;3:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;43</td>
+        <td>&nbsp;&nbsp;3:42</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;43</td>
+        <td>&nbsp;&nbsp;3:47</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:52</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;For a more Marauder-heavy composition, get one reactor and one tech lab instead of two reactors here.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:54</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Command Center</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Use the time not spent building units because you're building reactors to save up minerals and get a 3rd CC.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;3:58</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;45</td>
+        <td>&nbsp;&nbsp;4:02</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;47</td>
+        <td>&nbsp;&nbsp;4:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;47</td>
+        <td>&nbsp;&nbsp;4:08</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Once you have your 3rd CC down, you can grab your 3rd and 4th gases. Getting these before your 3rd CC will delay it unnecessarily.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;47</td>
+        <td>&nbsp;&nbsp;4:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Refinery</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;48</td>
+        <td>&nbsp;&nbsp;4:12</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Starport</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;Swap the Starport onto the reactor built by the Factory.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Factory Reactor</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:20</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;49</td>
+        <td>&nbsp;&nbsp;4:22</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:24</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:32</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:34</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:37</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;51</td>
+        <td>&nbsp;&nbsp;4:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;4:40</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;57</td>
+        <td>&nbsp;&nbsp;4:44</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;58</td>
+        <td>&nbsp;&nbsp;4:47</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;58</td>
+        <td>&nbsp;&nbsp;4:48</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;60</td>
+        <td>&nbsp;&nbsp;4:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;62</td>
+        <td>&nbsp;&nbsp;5:00</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;62</td>
+        <td>&nbsp;&nbsp;5:04</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Orbital Command</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:14</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Combat Shields</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:15</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;68</td>
+        <td>&nbsp;&nbsp;5:21</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:32</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;75</td>
+        <td>&nbsp;&nbsp;5:33</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Engineering Bay</span>, <span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;77</td>
+        <td>&nbsp;&nbsp;5:36</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;77</td>
+        <td>&nbsp;&nbsp;5:37</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;5:45</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;81</td>
+        <td>&nbsp;&nbsp;5:46</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x5</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;87</td>
+        <td>&nbsp;&nbsp;5:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;87</td>
+        <td>&nbsp;&nbsp;5:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;88</td>
+        <td>&nbsp;&nbsp;5:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;88</td>
+        <td>&nbsp;&nbsp;6:01</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Armor Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;88</td>
+        <td>&nbsp;&nbsp;6:03</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Upgrade">Terran Infantry Weapons Level 1</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;89</td>
+        <td>&nbsp;&nbsp;6:05</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;89</td>
+        <td>&nbsp;&nbsp;6:06</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;89</td>
+        <td>&nbsp;&nbsp;6:09</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;92</td>
+        <td>&nbsp;&nbsp;6:13</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;92</td>
+        <td>&nbsp;&nbsp;6:16</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;92</td>
+        <td>&nbsp;&nbsp;6:17</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x4</span>, <span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;99</td>
+        <td>&nbsp;&nbsp;6:18</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;99</td>
+        <td>&nbsp;&nbsp;6:21</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;99</td>
+        <td>&nbsp;&nbsp;6:24</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:25</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:29</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:30</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;103</td>
+        <td>&nbsp;&nbsp;6:31</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;107</td>
+        <td>&nbsp;&nbsp;6:35</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;107</td>
+        <td>&nbsp;&nbsp;6:38</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;107</td>
+        <td>&nbsp;&nbsp;6:39</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Barracks x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;6:41</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Building">Supply Depot</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;109</td>
+        <td>&nbsp;&nbsp;6:43</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x3</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;6:47</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;6:51</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;112</td>
+        <td>&nbsp;&nbsp;6:53</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Medivac</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr style="display: none;">
+        <td>&nbsp;&nbsp;118</td>
+        <td>&nbsp;&nbsp;6:55</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Worker hide">SCV</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;118</td>
+        <td>&nbsp;&nbsp;6:57</td>
+        <td>&nbsp;&nbsp;
+            <nobr><span class="Unit">Marine x2</span>
+            </nobr>
+        </td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+</tbody>
+	</table>
+	</center>
+</div>
+</body>
+</html>

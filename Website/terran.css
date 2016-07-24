@@ -1,0 +1,35 @@
+body {
+
+	background-image: url('bc.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26;
+	color: #FEFCFF;
+	
+}
+
+h1 {
+	font-size: 36px;
+	
+}
+
+div {
+
+
+	position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  border-radius: 3px;
+}
